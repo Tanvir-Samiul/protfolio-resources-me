@@ -1,0 +1,289 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+ 
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+/* shared style */
+
+.orange-color{
+ color:  rgba(253, 110, 10, 1);
+
+ 
+}
+.black-color{
+  color: rgba(24, 24, 24, 1);
+}
+.black-color-one{
+  color: rgba(71, 71, 71, 1);
+}
+
+.button{
+  background-color:  rgba(253, 110, 10, 1);
+  
+  color: white;
+  padding: 18px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* nav bar style */
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 230px;
+}
+
+
+.nav-title{
+
+  font-size: 45px;
+  font-weight: bold;
+}
+nav ul{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  gap: 35px ;
+  margin-right: 230px;
+
+}
+
+nav ul a{
+  text-decoration: none;
+   color: rgba(24, 24, 24, 1);
+   font-size: 20px;
+   font-weight: bold;
+}
+
+/* hero style */
+  .hero-div{
+    display: flex;
+    gap:50px; 
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 230px;
+  }
+
+  .text-div{
+
+    max-width: 580px; 
+  }
+  .text-div h4{
+    font-size: 40px;
+     font-weight: 600;
+     margin-bottom: 0px;
+  }
+  .text-div h2{
+    font-size: 65px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .text-div p{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(71, 71, 71, 1);
+    margin-top: 3px;
+    
+  }
+
+  .download{
+    background-color:  rgba(253, 110, 10, 1);
+  
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  }
+
+  .contact{
+   color:  rgba(253, 110, 10, 1);
+  
+   
+  padding: 8px 20px;
+  border: none;
+  border-radius: 5px; 
+  font-size: 20px;
+  font-weight: bold;
+  }
+
+  .image-div{
+    max-width: 580px;
+    margin-right: 20px;
+  }
+  header{
+      background-image: url(../images/developer.png), url(../images/header_bg.png);
+      background-position: left bottom, right bottom;
+      background-repeat: no-repeat,no-repeat;
+       background-color: rgba(255, 248, 243, 1);
+
+
+  }
+
+
+  /* hero section style */
+
+
+  main{
+    max-width: 1140px;
+    margin: 0px auto;
+  }
+
+  .about-me-full{
+     
+    
+    background-color: rgba(255, 248, 243, 1);
+    margin: 100px auto;
+    border-radius: 5px ;
+    padding: 150px 200px;
+  }
+
+
+  .about-me{
+    
+    background-color: white ;
+     /* margin: 120px 150px; */
+     text-align: center;
+     border: 2px solid black;
+     border-radius: 4px;
+     
+     
+  }
+
+  .top-about h4{
+    font-size: 35px;
+    font-weight: 500;
+     margin: 0px auto;
+   
+
+  }
+  .top-about p{
+    font-size: 18px;
+    font-weight:500px ;
+    color: rgba(117, 117, 117, 1);
+  }
+
+  .bottom-about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:10px;
+  }
+  .id{
+    color: rgba(117, 117, 117, 1);
+    font-size: 20px;
+    
+  }
+  .info{
+    font-size: 20px;
+    font-weight: 500;
+
+  }
+
+
+ /* box style  */
+ .box-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: full-width;
+  margin: 100px auto;
+  gap: 10px;
+ }
+ .container{
+    
+    padding: 30px;
+    max-height: 370px;
+    /* border:  3px solid black; */
+      box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    
+
+
+ }
+ .container img{
+  max-width: 44px;
+ }
+ .box-para{
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(117, 117, 117, 1);
+  margin-bottom: 0px;
+  line-height: 28px;
+ }
+ .box-title{
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 20px;
+
+ }
+
+
+ /* resume style */
+  .resume-contaier{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+    margin-bottom: 50px;
+  }
+  .resume{
+    margin:0px auto;
+     
+     
+  }
+  .resume-title{
+    margin: 40px auto;
+    font-size: 40px;
+    text-align: center;
+  }
+  .resume-collam-title{
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .school-name{
+
+    font-size: 25px;
+    margin-bottom: 0px;
+    font-weight: bold;
+  }
+  .school-title{
+    font-size: 20px;
+    margin-top: 1px;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: rgba(117, 117, 117, 1);
+  }
+  .school-description{
+    font-size: 16px;
+    color: rgba(117, 117, 117, 1);
+
+  }
+   .resume-button{
+    /* display: block;
+     
+    margin: 0px auto; */
+    display:flex;
+    justify-content: center;
+    
+   }
